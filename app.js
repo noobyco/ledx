@@ -6,10 +6,11 @@ const bodyParser = require("body-parser");
 const app = express();
 
 app.use(bodyParser.urlencoded({extended:true}));
-app.use(express.static("static"));
+app.use(express.static( __dirname + "/public"));
 
 app.get("/", function(req, res){
     res.sendFile(__dirname + "/index.html");
+    
 });
 
 let name;
@@ -46,7 +47,7 @@ app.post("/main", function(req, res){
 app.get("/main", function(req, res){
     if(passwd == "raspian1155"){
 
-        res.sendFile(__dirname + "/main.html");
+        res.sendFile(__dirname + "/public/main.html");
     }else{
         res.write("Wrong password, YOU " + name);
         res.send();
@@ -54,5 +55,5 @@ app.get("/main", function(req, res){
 });
 
 //Server listning...
-app.listen(process.env.PORT || 8000);
+app.listen(process.env.PORT || 8001);
 
