@@ -95,7 +95,7 @@ Lets help you with the resource to make your own virsion of this project. Here i
 
 ## Event
 
-I also conducted a [workshop](https://www.linkedin.com/feed/update/urn:li:activity:6941213450719105024/) named `IotT-101` at my university 
+I also conducted a [workshop](https://www.linkedin.com/feed/update/urn:li:activity:6941213450719105024/) named `IoT-101` at my university 
 
 ![1654914247045](https://github.com/Blaize15/iot-led/assets/59837486/ab541ff3-4d71-4967-91c6-1414858d61e5)
 
